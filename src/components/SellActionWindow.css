@@ -1,0 +1,17 @@
+/* Reuse BuyActionWindow styles for SellActionWindow */
+@import "./BuyActionWindow.css";
+
+#error {
+  color: red;
+  margin: 10px 0;
+}
+
+#sell-window .btn-blue {
+  background: #e74c3c;
+  border-color: #e74c3c;
+}
+
+#sell-window .btn-blue:hover {
+  background: #c0392b;
+  border-color: #c0392b;
+}
