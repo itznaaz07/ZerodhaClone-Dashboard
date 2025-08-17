@@ -1,9 +1,9 @@
-import React, { useState, useContext } from "react";
+import React, { useState} from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import GeneralContext from "./GeneralContext";
 import "./BuyActionWindow.css";
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:3002";
+const apiUrl = "https://zerodhaclone-backend-mamd.onrender.com";
 
 const SellActionWindow = ({ uid, maxQty }) => {
   const [stockQuantity, setStockQuantity] = useState("");
