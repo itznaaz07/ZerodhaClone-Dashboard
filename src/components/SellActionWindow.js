@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import GeneralContext from "./GeneralContext";
 import "./BuyActionWindow.css";
-const apiUrl = "https://zerodhaclone-backend-mamd.onrender.com";
+const apiUrl = "https://zerodhaclone-backend-1.onrender.com";
 
 const SellActionWindow = ({ uid, maxQty }) => {
   const [stockQuantity, setStockQuantity] = useState("");
