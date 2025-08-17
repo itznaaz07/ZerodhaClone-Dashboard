@@ -27,7 +27,7 @@ const Menu = () => {
     console.log("handle log out clicked");
     localStorage.removeItem('token'); 
     setTimeout(()=>{
-          window.location.href = `http://localhost:3000`;  
+          window.location.href = ``;  
           window.history.pushState(null, "", window.location.href);
     }, 500);
   }
